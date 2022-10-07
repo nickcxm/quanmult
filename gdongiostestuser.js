@@ -8,6 +8,7 @@ if (typeof $response == "undefined") {
 } else if (obj && obj.data) {
 	obj.data=1
 	resp.body = JSON.stringify(obj);
+	console.log(resp.body);
 }
 
 $done(resp);
